@@ -1,0 +1,16 @@
+{
+  "name": "response",
+  "version": "1.0.0",
+  "description": "Responsive porfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Luka",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "touch": "^3.1.0",
+    "touch-cli": "0.0.1"
+  }
+}
